@@ -9,7 +9,13 @@ import java.util.List;
 @Repository
 public class AgentRepository {
 
+    private List<Agent> agents = new ArrayList<>();
+
     public List<Agent> findAll(){
+        return this.agents;
+    }
+
+    public void Dummy(){
         Agent a1 = new Agent();
         a1.setId(1);
         a1.setAsosiation("Amazon");
@@ -31,11 +37,8 @@ public class AgentRepository {
         a3.setUsername("agente3");
         a3.setPassword("pass3");
 
-        List<Agent> agents = new ArrayList<>();
-        agents.add(a1);
-        agents.add(a2);
-        agents.add(a3);
-
-        return agents;
+        this.agents.add(a1);
+        this.agents.add(a2);
+        this.agents.add(a3);
     }
 }

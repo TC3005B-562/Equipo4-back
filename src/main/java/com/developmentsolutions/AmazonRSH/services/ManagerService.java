@@ -18,6 +18,10 @@ public class ManagerService {
         return managerrepository.findAll();
     }
 
+    public void Dummy(){
+        managerrepository.Dummy();
+    }
+
     public Manager insertar (Manager manager) throws Exception{
         if(manager.getId()<1){
             throw new Exception("Invalid ID");

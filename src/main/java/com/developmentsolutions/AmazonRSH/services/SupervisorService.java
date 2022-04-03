@@ -18,6 +18,10 @@ public class SupervisorService {
         return supervisorrepository.findAll();
     }
 
+    public void Dummy(){
+        supervisorrepository.Dummy();
+    }
+
     public Supervisor insertar (Supervisor supervisor) throws Exception{
         if(supervisor.getId()<1){
             throw new Exception("Invalid ID");

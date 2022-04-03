@@ -18,6 +18,10 @@ public class AgentService {
         return agentrepository.findAll();
     }
 
+    public void Dummy(){
+        agentrepository.Dummy();
+    }
+
     public Agent insertar (Agent agent) throws Exception{
         if(agent.getId()<1){
             throw new Exception("Invalid ID");
