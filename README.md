@@ -3,9 +3,9 @@ Repositorio del equipo 4
 TC3005B
 
 
-#Módulo 5. Calidad del Software
+# Módulo 5. Calidad del Software
 
-#Timelog
+# Timelog
 
 - Estándar de calidad de software a utilizar
 
@@ -19,7 +19,7 @@ La integración y periodicidad en la que se estará integrando el timelog será 
 
 
 
-#Defectlog
+# Defectlog
 
 - Registro de los defectos del software
 
