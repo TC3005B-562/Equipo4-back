@@ -2,7 +2,7 @@ package com.developmentsolutions.AmazonRSH.models;
 
 public class Manager {
     private int id;
-    private String enterprise;
+    private String enterprise; // each company is registered by a manager, this attribute is the name of the company
     private String username;
     private String password;
 
@@ -10,6 +10,7 @@ public class Manager {
 
     }
 
+    //Getter and setter for id
     public int getId() {
         return id;
     }
@@ -18,6 +19,7 @@ public class Manager {
         this.id = id;
     }
 
+    //Getter and setter for the enterprise
     public String getEnterprise() {
         return enterprise;
     }
@@ -26,6 +28,7 @@ public class Manager {
         this.enterprise = enterprise;
     }
 
+    //Getter and setter for username
     public String getUsername() {
         return username;
     }
@@ -34,6 +37,7 @@ public class Manager {
         this.username = username;
     }
 
+    //Getter and setter for password
     public String getPassword() {
         return password;
     }

@@ -15,20 +15,20 @@ public class ManagerController {
     @Autowired
     ManagerService managerservice;
 
-    @GetMapping("/all")
+    @GetMapping("/all") //shows all current managers
     public List<Manager> getAll(){
         return managerservice.getAll();
     }
 
-    @GetMapping("/dummy")
+    @GetMapping("/dummy") //adds dummy information
     public String Dummy(){
         managerservice.Dummy();
         return "Dummy information inserted!";
     }
 
-    @PostMapping("/save")
+    @PostMapping("/save") //saves a new manager
     public Manager save(@RequestBody Manager manager) throws Exception{
-        managerservice.insertar(manager);
+        managerservice.insert(manager);
         return manager;
     }
 

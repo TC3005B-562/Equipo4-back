@@ -16,20 +16,20 @@ public class SupervisorController {
     @Autowired
     SupervisorService supervisorservice;
 
-    @GetMapping("/all")
+    @GetMapping("/all") //shows all current supervisors
     public List<Supervisor> getAll(){
         return supervisorservice.getAll();
     }
 
-    @GetMapping("/dummy")
+    @GetMapping("/dummy") //adds dummy information
     public String Dummy(){
         supervisorservice.Dummy();
         return "Dummy information inserted!";
     }
 
-    @PostMapping("/save")
+    @PostMapping("/save") //saves a new supervisor
     public Supervisor save(@RequestBody Supervisor supervisor) throws Exception{
-        supervisorservice.insertar(supervisor);
+        supervisorservice.insert(supervisor);
         return supervisor;
     }
 

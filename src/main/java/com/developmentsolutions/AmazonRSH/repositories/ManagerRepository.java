@@ -10,12 +10,14 @@ import java.util.List;
 
 public class ManagerRepository {
 
-    private List<Manager> managers = new ArrayList<>();
+    private List<Manager> managers = new ArrayList<>();//list to store managers
 
+    //findAll() return the list with all the current managers
     public List<Manager> findAll(){
         return this.managers;
     }
 
+    //Dummy() creates 3 dummy managers and store them in the list
     public void Dummy(){
         Manager m1 = new Manager();
         m1.setId(1);

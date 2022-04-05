@@ -15,20 +15,20 @@ public class AgentController {
     @Autowired
     AgentService agentservice;
 
-    @GetMapping("/all")
+    @GetMapping("/all") //shows all current agents
     public List<Agent> getAll(){
         return agentservice.getAll();
     }
 
-    @GetMapping("/dummy")
+    @GetMapping("/dummy") //adds dummy information
     public String Dummy(){
         agentservice.Dummy();
         return "Dummy information inserted!";
     }
 
-    @PostMapping("/save")
+    @PostMapping("/save") //saves a new agent
     public Agent save(@RequestBody Agent agent) throws Exception{
-        agentservice.insertar(agent);
+        agentservice.insert(agent);
         return agent;
     }
 
