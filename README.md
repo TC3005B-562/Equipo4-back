@@ -100,3 +100,5 @@ El registro de defectos del software, consta de un registro que incluye la fecha
 
 Para esta parte se utiliza el script C14 “Project Plan Summary” y el C18 “Defect Recording Log” de PSP, el cual servirá para llevar a cabo el registro de cada defecto y su correspondiente información. En cuanto a la periodicidad, se tiene en cuenta un tiempo estimado de dos a cuatro días.
 
+# Ciclo 1
+Enlace a registro de timelog y defectlog: https://drive.google.com/drive/folders/1n6MJWPOCLBmjn4Cd-kKAEkTSXCX9kzF0?usp=sharing
