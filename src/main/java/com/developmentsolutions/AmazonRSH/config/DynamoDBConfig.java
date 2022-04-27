@@ -27,11 +27,8 @@ public class DynamoDBConfig {
 
     @Bean
     public AmazonDynamoDB amazonDynamoDB() {
-        return AmazonDynamoDBClientBuilder.standard().withEndpointConfiguration(
-                        new AwsClientBuilder.EndpointConfiguration(amazonDynamoDBEndpoint, "localhost")).withCredentials(
-                        new AWSStaticCredentialsProvider(new BasicAWSCredentials(amazonAWSAccessKey, amazonAWSSecretKey))
-                )
-                .build();
+        AmazonDynamoDBClientBuilder builder = configDBClientBuilder();
+        return builder.build();
     }
 
     @Bean
