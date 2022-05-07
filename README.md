@@ -102,3 +102,6 @@ Para esta parte se utiliza el script C14 “Project Plan Summary” y el C18 “
 
 # Ciclo 1
 Enlace a registro de timelog y defectlog: https://drive.google.com/drive/folders/1n6MJWPOCLBmjn4Cd-kKAEkTSXCX9kzF0?usp=sharing
+
+# Ciclo 2
+Enlace a registros de checklist, timelog y defectlog: https://drive.google.com/drive/folders/1UtAUTZR7F-L74ISHY4Ke5GZxklcizgij?usp=sharing
