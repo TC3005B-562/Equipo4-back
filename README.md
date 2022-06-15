@@ -109,7 +109,7 @@ Enlace a registros de checklist, timelog y defectlog: https://drive.google.com/d
 # Ciclo 3
 Enlace a nuestro documentos: https://drive.google.com/drive/folders/1i4BqTUhY7G81klcTjUnwnK9DQwYrWlT5?usp=sharing
 
-#Métricas
+# Métricas
 Enlace a nuestro documento de colecta de datos: https://docs.google.com/spreadsheets/d/1jK87zfKR2ewyKi-qRnY_RMRhIkSg5TW3/edit?usp=sharing&ouid=111929301478617411643&rtpof=true&sd=true
 
 Enlace a nuestro documento de casos de prueba: https://docs.google.com/spreadsheets/d/1D8o4jxyB2gm2apHw0arcf2Ywr6-o70xC/edit?usp=sharing&ouid=111929301478617411643&rtpof=true&sd=true
